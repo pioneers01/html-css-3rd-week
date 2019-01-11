@@ -1,0 +1,174 @@
+header{
+    font-size: .34rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(255, 255, 255);
+    height:3.71rem;
+}
+header .head{
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .79rem;
+    text-align: center;
+    padding-top: .2rem;
+    background: rgb(44,44,44);
+}
+header .head div{
+    display:inline-block;
+    float:left;
+}
+header .head img{
+    margin-left: .26rem;
+    float:left;
+    width: .23rem;
+    height: .41rem;
+}
+header .head .sign-in{
+    margin-left: 2.38rem;
+}
+header .head .point{
+    float:right;
+    margin-right: .07rem;
+    margin-left: 0;
+    margin-top: .16rem;
+    background-color: #fff;
+    border-radius: 50%;
+    width: .08rem;
+    height: .08rem;
+}
+header .head .pt1{
+    margin-right: .26rem;
+}
+header .header-img{
+    font-size: .40rem;
+    width: 100%;
+    height: 3.71rem;
+    background: url("../img/header-bg.png") no-repeat;
+    background-size: 6.4rem 3.71rem;
+    font-family: "FZLTZHK";
+    color: rgb(255, 255, 255);
+}
+.header-img div{
+    padding-left: 3rem;
+    padding-top: 1.79rem;
+    text-align: center;
+}
+main form{
+    background: #fff;
+    /*box-sizing: border-box;*/
+    padding-left: .84rem;
+    padding-top: .16rem;
+    width: 4.73rem;
+    margin-bottom: .76rem;
+}
+main form>input{
+    width: 4.71rem;
+    height: .78rem;
+    box-sizing: border-box;
+    /*margin-left: 1px;*/
+    /*margin-top: 1px;*/
+    border: 0;
+    outline: 1px rgb(199,199,199) solid;
+}
+main form .message img {
+    width: .27rem;
+    height: .27rem;
+    vertical-align: middle;
+    margin-right: .07rem;
+}
+main form .three{
+    font-size: .28rem;
+    font-family: "FZLTHJW";
+    color: rgb(181, 181, 181);
+    box-sizing: border-box;
+    padding-left: .22rem;
+}
+main form .pnumber{
+    margin-top: .16rem;
+}
+main form .password{
+    margin-top: .23rem;
+}
+main form .code{
+    display:inline-block;
+    margin-top: .24rem;
+    width: 3.02rem;
+    /*vertical-align: middle;*/
+}
+main form .code-img{
+    display:inline-block;
+    float: right;
+    margin-top: .23rem;
+    margin-right: 0;
+}
+main form .code-img img{
+    width: 1.46rem;
+    height: .78rem;
+}
+main form .remember {
+    display: inline-block;
+    width: 4.71rem;
+    margin-top: .2rem;
+    font-size: .14rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(108, 108, 108);
+}
+main form .remember input{
+    width: .2rem;
+    height: .2rem;
+    vertical-align: middle;
+    border: 5px rgb(156,179,199) solid;
+    margin-right: .11rem;
+}
+main form .remember a{
+    float: right;
+    margin-right:  .03rem;
+}
+main .sign{
+    display: inline-block;
+    float: left;
+    margin-top: .21rem;
+    margin-left: 0;
+    width: 2.23rem;
+    height:.78rem;
+    font-size: .34rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(255, 167, 81);
+    background: #fff;
+}
+main .form-sign-in{
+    float: right;
+    margin-right: 0;
+    background: rgb(255,167,81);
+    color: #fff;
+}
+main .other{
+    padding-left: .84rem;
+    width: 4.73rem;
+    margin-bottom: .52rem;
+}
+main .other .line{
+    height: 1px;
+    border-top: 1px solid rgb(204,204,204);
+    text-align: center;
+    font-size: .21rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(91, 91, 91);
+}
+main .other .line-text{
+    position: relative;
+    top: -.21rem;
+    background: #ffffff;
+    padding: 0 .09rem;
+}
+main .other .img-box{
+    margin-top: .38rem;
+    font-size: 0;
+}
+.other img{
+    margin-left: .25rem;
+    width: .87rem;
+    height: .87rem;
+}

@@ -1,28 +1,8 @@
-/*html{*/
-    /*font-size:64px;*/
-/*}*/
-/*body{*/
-    /*width: 100%;*/
-/*}*/
-.clearfix:after{
-    content: "";
-    clear: both;
-    height: 0;
-    display: block;
-}
-.clearfix{
-    zoom: 1;
-}
 .banner {
     font-size: .34rem;
     font-family: "HiraginoSansGB";
     color: rgb(255, 255, 255);
     height:4.6rem;
-}
-.banner .head{
-    position: fixed;
-    left: 0;
-    top: 0;
 }
 .banner .head{
     position: fixed;
