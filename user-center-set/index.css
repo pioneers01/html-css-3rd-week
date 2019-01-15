@@ -1,0 +1,96 @@
+header{
+    width: 6.4rem;
+    height: .79rem;
+    text-align: center;
+    background: rgb(44,44,44);
+    /*vertical-align: middle;*/
+}
+header .back img{
+    float: left;
+    width: .23rem;
+    height: .41rem;
+    margin-left: .27rem;
+    margin-top: .2rem;
+    vertical-align: middle;
+}
+header .more img{
+    float: right;
+    width: .39rem;
+    height: .08rem;
+    margin-right: .26rem;
+    margin-top: .36rem;
+    vertical-align: middle;
+}
+header span{
+    font-size: .34rem;
+    line-height: .79rem;
+    vertical-align: middle;
+    color: #ffffff;
+}
+main{
+    width: 6.4rem;
+    background: #fff;
+    text-align: center;
+}
+main .top img{
+    width: 6.4rem;
+    height: 2.93rem;
+    background: rgba(0,0,0,.9);
+    background-size: cover;
+}
+main .head-portrait{
+    height: 1.78rem;
+    width: 1.78rem;
+    margin-top: -.88rem;
+}
+main .user-name{
+    margin-top: .2rem;
+    display: block;
+    font-size: .36rem;
+    color: rgb(95,95,95);
+}
+main .three{
+    border: 1px solid rgb(199,199,199);
+    width: 5.54rem;
+    height: .79rem;
+    margin: .2rem auto;
+    color: rgb(95,95,95);
+    border-radius: 1%;
+    font-size: .28rem;
+}
+main .three:first-child{
+    margin-top: .64rem;
+}
+main .three:last-child{
+    margin-bottom: .44rem;
+}
+main .three a{
+    height: .79rem;
+}
+main .three span:first-child{
+    float: left;
+
+    line-height: .79rem;
+    margin-top: 0;
+    margin-left: .28rem;
+}
+main .three span:last-child{
+    float: right;
+    line-height: .79rem;
+    margin-top: 0;
+    color: rgb(255,167,81);
+    margin-right: .26rem;
+}
+main .sign-out{
+    width: 2.23rem;
+    height: .79rem;
+    background: rgb(255,167,81);
+    font-size: .34rem;
+    color: #ffffff;
+    margin:.44rem auto;
+    line-height: .79rem;
+    border-radius: 1%;
+}
+main .sign-out a{
+    color: #ffffff;
+}
