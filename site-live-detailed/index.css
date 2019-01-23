@@ -1,0 +1,188 @@
+.banner {
+    font-size: .34rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(255, 255, 255);
+    height:4.24rem;
+}
+.head{
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .79rem;
+    text-align: center;
+    padding-top: .2rem;
+    background: transparent;
+    z-index: 100;
+}
+.head div{
+    display:inline-block;
+    float:left;
+}
+.head img{
+    margin-left: .26rem;
+    float:left;
+    width: .23rem;
+    height: .41rem;
+}
+.head .sign-in{
+    margin-left: 2.38rem;
+}
+.head .point{
+    float:right;
+    margin-right: .07rem;
+    margin-left: 0;
+    margin-top: .16rem;
+    background-color: #fff;
+    border-radius: 50%;
+    width: .08rem;
+    height: .08rem;
+}
+.head .pt1{
+    margin-right: .26rem;
+}
+.bn-img{
+    width: 100%;
+    display: none;
+    font-size: 0;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 192, 81);
+    background: #000;
+    height: 4.24rem;
+}
+.bn-img1{
+    display: block;
+    width: 100%;
+    height: 4.24rem;
+    background-image: url("img/bn-img.png");
+    background-repeat: no-repeat;
+}
+.banner .banner-img .bn-img-bottom{
+    float: left;
+    margin-left: 0;
+    margin-top: 3.47rem;
+    width: 6.4rem;
+    height: .77rem;
+    background: rgba(0,0,0,.6);
+    font-size: 0;
+}
+.banner .banner-img .bn-img-bottom img{
+    display: inline-block;
+    width: .57rem;
+    height: .57rem;
+    margin-left: .3rem;
+    vertical-align: middle;
+}
+.banner .banner-img .bn-img-bottom span{
+    display: inline-block;
+    width: .97rem;
+    height: 100%;
+    text-align: center;
+    color: rgb(229,229,229);
+    font-size: .24rem;
+    line-height: .77rem;
+    vertical-align: middle;
+}
+div.banner div.banner-img div.bn-img-bottom span:last-child{
+    color: rgb(164,164,164);
+    font-size: .21rem;
+    text-align: left;
+}
+.main{
+    background: rgb(248,248,248);
+    border-bottom: 1px rgb(233,233,233) solid;
+}
+.main .site-name{
+    text-align: center;
+    height: .74rem;
+    width: 6.4rem;
+    background: #fff;
+}
+.main .site-name span{
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    color: rgb(77,77,77);
+    font-size: .3rem;
+    line-height: .74rem;
+    vertical-align: middle;
+}
+.main .site-name span:last-child{
+    border-radius: 5%;
+    background: rgb(255,168,81);
+    color: #fff;
+    font-size: .21rem;
+    height: .35rem;
+    line-height: .35rem;
+    text-align: left;
+}
+.main .site-detailed>div{
+    width: 6.4rem;
+    height: 1.31rem;
+    border-top: 1px rgb(233,233,233) solid;
+    font-size: 0;
+    text-align: center;
+    background: #ffffff;
+}
+.main .site-detailed>div div{
+    display: inline-block;
+    width: 2.12rem;
+    height: 100%;
+}
+.main .site-detailed>div div:nth-child(2){
+    border-left: 1px rgb(233,233,233) solid;
+    border-right: 1px rgb(233,233,233) solid;
+}
+.main .site-detailed img{
+    width: .56rem;
+    height: .56rem;
+    margin-top: .18rem;
+    margin-bottom: .18rem;
+}
+.main .site-detailed span{
+    font-size: .24rem;
+    color: rgb(77,77,77);
+}
+.main .site-detailed .detailed-f1 div:last-child img{
+    width: .52rem;
+}
+.main .site-detailed .detailed-f2 div:first-child img{
+    width: .64rem;
+    height: .5rem;
+}
+.main .detailed-f2{
+    border-bottom: 1px rgb(233,233,233) solid;
+}
+.menu{
+    margin-top: .16rem;
+    box-sizing: border-box;
+    font-size: .20rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(77, 77, 77);
+    background: #fff;
+    border-bottom: 1px rgb(233,233,233) solid;
+    border-top: 1px rgb(233,233,233) solid;
+    height: 3.23rem;
+    padding-top: .25rem;
+}
+.menu ul{
+    width: 6.4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right:.65rem;
+    margin-bottom: .24rem;
+    text-align: center;
+}
+.menu .last{
+    margin-right:0;
+}
+.menu img{
+    display:block;
+    margin: 0 auto .13rem;
+    width: .86rem;
+    height: .86rem;
+}

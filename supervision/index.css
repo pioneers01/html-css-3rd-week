@@ -1,0 +1,156 @@
+.banner {
+    font-size: .34rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(255, 255, 255);
+    /*height:3.7rem;*/
+}
+.head{
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .79rem;
+    text-align: center;
+    padding-top: .2rem;
+    background: rgb(44,44,44);
+}
+.head div{
+    display:inline-block;
+    float:left;
+}
+.head img{
+    margin-left: .26rem;
+    float:left;
+    width: .23rem;
+    height: .41rem;
+}
+.head .sign-in{
+    margin-left: 2.38rem;
+}
+.head .point{
+    float:right;
+    margin-right: .07rem;
+    margin-left: 0;
+    margin-top: .16rem;
+    background-color: #fff;
+    border-radius: 50%;
+    width: .08rem;
+    height: .08rem;
+}
+.head .pt1{
+    margin-right: .26rem;
+}
+.banner .banner-img{
+    background:url("img/main-top.png") no-repeat;
+    height: 4.22rem;
+    width: 6.4rem;
+    font-size: 0;
+}
+.main{font-size: 0}
+.main>div{
+    height: 2.03rem;
+    width: 6.4rem;
+    background: url("img/main-bg-left.png") no-repeat;
+}
+.main .right{
+    background: url("img/main-bg-right.png") no-repeat;
+}
+.main img{
+    float: left;
+    margin-left: .46rem;
+    width: 1.05rem;
+    height: 1.05rem;
+}
+.main p{
+    margin: .2rem 0 0 .2rem;
+    float: left;
+    display: inline-block;
+    font-size: .3rem;
+    color: #ff3858;
+    line-height: .3rem;
+}
+.main p span{
+    font-size: .18rem;
+    color: #707070;
+}
+.main .right img{
+    float: right;
+    margin-right: .46rem;
+    margin-left: 0;
+}
+.main .right p{
+    margin: .2rem .2rem 0 0 ;
+    float:right;
+    text-align: right;
+}
+.main .garden-last{
+    background: url("img/main-garden3.png") no-repeat;
+    height: 3.05rem;
+}
+.main .last{
+    background: url("img/main-last.png") no-repeat;
+    height: 3.05rem;
+ }
+
+
+
+
+footer{
+    border-top:1px solid rgb(233,233,233) ;
+}
+footer .show{
+    width: 6.4rem;
+    height: 1.06rem;
+}
+footer .show img,footer .show div{
+    float: left;
+    margin-top: .27rem;
+    margin-left: .6rem;
+}
+footer img.logo{
+    width: .53rem;
+    height: .56rem;
+}
+footer img.name-solgan{
+    width: 1.03rem;
+    height: .52rem;
+    margin-top: .28rem;
+    margin-left: .07rem;
+}
+footer img.footer-br{
+    background-color: rgba(0,0,0,.2);
+    width: 1px;
+    height: .52rem;
+    margin-top: .28rem;
+    margin-left: .25rem;
+}
+footer img.cbda-logo{
+    width: .66rem;
+    height: .66rem;
+    margin-top: .22rem;
+    margin-left: .21rem;
+}
+footer div.cbda-name-solgan{
+    margin-top: .30rem;
+    margin-left: .12rem;
+    font-size: .18rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(70, 70, 70);
+}
+footer div.cbda-name-solgan span{
+    display: block;
+}
+footer .address{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(44,44,44);
+    width: 6.4rem;
+    height: .44rem;
+    padding-top: .12rem;
+}
+footer .address span{
+    font-size: .18rem;
+    font-family: "Arial";
+    color: rgb(226, 226, 226);
+}

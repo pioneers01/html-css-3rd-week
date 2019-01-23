@@ -1,0 +1,169 @@
+.banner {
+    font-size: .34rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(255, 255, 255);
+}
+.head{
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .79rem;
+    text-align: center;
+    padding-top: .2rem;
+    background: rgb(44,44,44);
+}
+.head div{
+    display:inline-block;
+    float:left;
+    text-align: center;
+}
+.head img{
+    margin-left: .26rem;
+    float:left;
+    width: .23rem;
+    height: .41rem;
+}
+.head .point{
+    float:right;
+    margin-right: .07rem;
+    margin-left: 0;
+    margin-top: .16rem;
+    background-color: #fff;
+    border-radius: 50%;
+    width: .08rem;
+    height: .08rem;
+}
+.head .pt1{
+    margin-right: .26rem;
+}
+main{
+    margin-top: .79rem;
+    width: 6.4rem;
+    background: rgb(248,248,248);
+    border-bottom: 1px solid rgb(233,233,233);
+}
+main>img{
+    display: block;
+}
+main p{
+    box-sizing: border-box;
+    width: 6.4rem;
+    padding-left: .33rem;
+    padding-right: .33rem;
+}
+main p:first-child{
+    margin-top: .26rem;
+    height: .5rem;
+    font-size: .3rem;
+    color: #595959;
+    line-height: .5rem;
+    text-align: center;
+}
+main p:nth-child(2){
+    margin-bottom: .2rem;
+    height: .37rem;
+    font-size: .18rem;
+    color: #797979;
+    line-height: .37rem;
+    text-align: center;
+}
+main>img:first-child{
+    width: 6.4rem;
+    height: 4.21rem;
+    margin-bottom: .22rem;
+}
+main p:nth-child(4){
+    font-size: .24rem;
+    color: #595959;
+    line-height: .37rem;
+    margin-bottom: .18rem;
+    text-indent:2em;
+    text-align: left;
+}
+main p:nth-child(6){
+    font-size: .24rem;
+    color: #595959;
+    line-height: .37rem;
+    margin-bottom: .38rem;
+    text-indent:2em;
+    text-align: left;
+}
+main p:nth-child(7){
+    background: #ffffff;
+    height: .68rem;
+    font-size: .18rem;
+    color: #797979;
+    text-align: left;
+    padding-top: .1rem;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(233,233,233);
+    margin-bottom: .16rem;
+}
+main p:nth-child(7) a{
+    font-size: .14rem;
+    color: #ffa751;
+    text-decoration:underline;
+}
+
+
+
+
+footer .show{
+    width: 6.4rem;
+    height: 1.06rem;
+}
+footer .show img,footer .show div{
+    float: left;
+    margin-top: .27rem;
+    margin-left: .6rem;
+}
+footer img.logo{
+    width: .53rem;
+    height: .56rem;
+}
+footer img.name-solgan{
+    width: 1.03rem;
+    height: .52rem;
+    margin-top: .28rem;
+    margin-left: .07rem;
+}
+footer img.footer-br{
+    background-color: rgba(0,0,0,.2);
+    width: 1px;
+    height: .52rem;
+    margin-top: .28rem;
+    margin-left: .25rem;
+}
+footer img.cbda-logo{
+    width: .66rem;
+    height: .66rem;
+    margin-top: .22rem;
+    margin-left: .21rem;
+}
+footer div.cbda-name-solgan{
+    margin-top: .30rem;
+    margin-left: .12rem;
+    font-size: .18rem;
+    font-family: "HiraginoSansGB";
+    color: rgb(70, 70, 70);
+}
+footer div.cbda-name-solgan span{
+    display: block;
+}
+footer .address{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(44,44,44);
+    width: 6.4rem;
+    height: .44rem;
+    padding-top: .12rem;
+}
+footer .address span{
+    font-size: .18rem;
+    font-family: "Arial";
+    color: rgb(226, 226, 226);
+}

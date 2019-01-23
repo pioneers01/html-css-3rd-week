@@ -1,0 +1,39 @@
+.main .img-box{
+    background:url("img/main-img.png") no-repeat;
+    background-size: 6.4rem 11.38rem;
+    height: 11.38rem;
+    font-size: 0;
+    color: #ffffff;
+    text-align: center;
+    width: 6.4rem;
+}
+.main .person-detailed{
+    float: left;
+    margin-left: 1.3rem;
+    margin-top: 7.7rem;
+    text-align: center;
+    font-size: .26rem;
+}
+.main .img-box div{
+    box-sizing: border-box;
+    float: left;
+    margin-left: 2.64rem;
+    margin-top: .97rem;
+    font-size: .21rem;
+    background: rgb(255,168,81);
+    height: 1.12rem;
+    width: 1.12rem;
+    border-radius: 50%;
+    padding-top: .1rem;
+}
+.main .img-box div img{
+    width: .35rem;
+    height: .52rem;
+}
+.main img:last-child{
+    float: left;
+    margin-left: 2.27rem;
+    margin-top: .4rem;
+    height: .13rem;
+    width: 1.88rem;
+}
