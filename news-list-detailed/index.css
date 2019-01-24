@@ -46,6 +46,8 @@ main{
 }
 main>img{
     display: block;
+    width: 6.4rem;
+    height: 4.21rem;
 }
 main p{
     box-sizing: border-box;
